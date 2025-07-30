@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystia's Izakaya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo"><img src="https://cdn.builder.io/api/v1/image/assets/e64a5e03458d49e8a674c2d1b43e24e2/df2fa2306b9437d03b536dfa9e1a1d053a4ffe4186f1b20745fe0815e4521b34?apiKey=e64a5e03458d49e8a674c2d1b43e24e2&" alt="Logo" /></a>
+            <ul class="nav-links">
+                <li><a href="home.html" class="nav-link ">Home</a></li>
+                <li><a href="othergames.html" class="nav-link active">Other Games</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.php" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="heroother">
+        <div class="heroother-content">
+            <h1>Other Games</h1>
+            <p>Check out our other projects!</p><br>
+            <p>( semuanya milik 二色幽紫蝶 dan Re零同人社 )</p>
+        </div>
+    </section>
+
+
+    
+<!-- Features Section -->
+<section class="others">
+    <h2>Our Projects</h2>
+    <div class="features-grid">
+        <div class="feature-item">
+            <img src="https://cdn.builder.io/api/v1/image/assets/e64a5e03458d49e8a674c2d1b43e24e2/b1e4c9a9b3a2f4a29e56f8614359cda7b61d563273cdf627d2acf54917534e2f?apiKey=e64a5e03458d49e8a674c2d1b43e24e2&" alt="Bl">
+            <h3>Blooming Chaos</h3>
+            <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+        </div>
+        <div class="feature-item">
+            <img src="https://cdn.builder.io/api/v1/image/assets/e64a5e03458d49e8a674c2d1b43e24e2/a5a0e3bb899d6f744577d6b78942f6d36d570d5ccc29f887f83b755eaae36e9d?apiKey=e64a5e03458d49e8a674c2d1b43e24e2&" alt="Bl2">
+            <h3>Blooming Chaos 2</h3>
+            <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+        </div>
+        <div class="feature-item">
+            <img src="https://cdn.builder.io/api/v1/image/assets/e64a5e03458d49e8a674c2d1b43e24e2/764208a4a3a992080f0827de70239581760c7c08ac22fa55c94998bedb3ee17a?apiKey=e64a5e03458d49e8a674c2d1b43e24e2&" alt="Make Friends!">
+            <h3>Fairy Knockout</h3>
+            <p>Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. </p>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <h2>Explore</h2>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="othergames.html">Other Games</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+    
+    
+</body>
+</html>
